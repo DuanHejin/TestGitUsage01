@@ -1,3 +1,5 @@
 this is a new text file.
 
 hahaha
+
+fix a bug in this branch called bug.
