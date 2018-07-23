@@ -1,1 +1,5 @@
 this is the third file named "file3.txt".
+
+modified something at bug2 branch.
+
+modified something again at bug2 branch.
