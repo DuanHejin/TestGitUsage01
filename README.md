@@ -6,3 +6,5 @@ update at bug2.
 update at bug3
 
 update at bug3 twice.
+
+fix at fix1.
