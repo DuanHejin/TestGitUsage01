@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Flex Pic Demo</title>
+</head>
+<style>
+     html, body {
+        height: 100%;
+        width: 100%;
+        margin: 10px;
+        padding: 0;
+        background-color: #ffeead;
+    }
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .flex-container div {
+    }
+
+    .flex-container .normal {
+        flex: 1 1 150px;
+    }
+
+    .flex-container .big {
+        flex: 1 1 250px;
+    }
+
+    .flex-container div img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+</style>
+<script>
+
+</script>
+<body>
+    <div class="flex-container">
+        <div class="normal"><img src="./img/fczlm1.jpg" class="image"></div>
+        <div class="big"><img src="./img/iron man.jpg" class="image"></div>
+        <div class="big"><img src="./img/captain.jpg" class="image"></div>
+        <div class="big"><img src="./img/Black Widow.jpg" class="image"></div>
+        <div class="big"><img src="./img/hulk.jpeg" class="image"></div>
+        <div class="big"><img src="./img/hulk buster.jpg" class="image"></div>
+        <div class="big"><img src="./img/thro.jpg" class="image"></div>
+        <div class="big"><img src="./img/Loki .jpg" class="image"></div>
+        <div class="big"><img src="./img/Hawkeye.jpg" class="image"></div>
+        <div class="big"><img src="./img/Scarlet Witch.jpg" class="image"></div>
+        <div class="normal"><img src="./img/cat.jpg" class="image"></div>
+    </div>
+
+</body>
+</html>

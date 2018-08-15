@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Flex</title>
+</head>
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .root {
+        margin: 0;
+        padding: 0;
+    }
+    .flex-container {
+        border: 5px solid #ffcc5c;
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: row nowrap;
+    }
+    .main {
+        background-color: coral;
+        flex: 1 1 auto;
+    }
+    .split-bar {
+        background-color: beige;
+        width: 12px;
+    }
+    .split-bar .split-icon::after {
+        content: '▶︎'';
+    }
+    .nav {
+        background-color: aquamarine;
+        width: 300px;
+    }
+</style>
+<script>
+
+</script>
+<body>
+    <div class="root">
+        <div class="flex-container">
+            <div class="main">
+                <div>main</div>
+            </div>
+            <div class="split-bar">
+                <div class="split-icon"></div>
+            </div>
+            <div class="nav">nav</div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

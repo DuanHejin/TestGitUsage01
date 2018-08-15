@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Flex</title>
+</head>
+<style>
+     html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .flex-container {
+        border: 5px solid #ffcc5c;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        flex-flow: row nowrap;
+    }
+    .flex-item {
+        flex: auto;
+    }
+    .logo {
+        background-color: aquamarine;
+        flex: 1 1 300px;
+    }
+    .search {
+        background-color: brown;
+        flex: 1 1 200px;
+    }
+    .logout {
+        background-color: coral;
+        flex: 1 1 200px;
+    }
+</style>
+<script>
+
+</script>
+<body>
+    <div class="flex-container">
+        <div class="flex-item logo">logo</div>
+        <div class="flex-item search">search</div>
+        <div class="flex-item logout">logout</div>
+    </div>
+</body>
+</html>
